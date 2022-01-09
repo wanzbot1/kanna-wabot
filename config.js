@@ -31,23 +31,23 @@ function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
 }
 
-function image() {
+/*function image() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    res = "Selamat dinihari"
+    res = fs.readFileSync('./src/logo3.jpg')
     if (time >= 4) {
-        res = `https://telegra.ph/file/1c2704928e6e7343ed149.jpg`
+        res = fs.readFileSync('./src/logo3.jpg')
     }
     if (time > 10) {
-        res = `https://telegra.ph/file/4e61560c8d00de4b9f3e9.jpg`
+        res = fs.readFileSync('./src/logo3.jpg')
     }
     if (time >= 15) {
-        res = `https://telegra.ph/file/f3d1351db6f5486651419.jpg`
+        res = fs.readFileSync('./src/logo2.jpg')
     }
     if (time >= 18) {
-        res = `https://telegra.ph/file/8976bd0e16498b4afb56d.jpg`
+        res = fs.readFileSync('./src/logo2.jpg')
     }
     return res
-}
+}*/
 
 global.DeveloperMode = 'false' //Buat Mode True False Moderator
 global.linkGC = ['https://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT'] // ganti jadi group lu
@@ -95,7 +95,7 @@ global.author = '۰ ⸼'
 global.botwm = `🎮 Ƙαnnα вσт`//UBAH JADI NAMAMU
 global.botdate = `╭──────────═┅═─────────\n│◪ ${time}\n┊◪ ${week} ${date}\n╰──────────═┅═─────────`
 global.imagebot = `https://telegra.ph/file/793b6accf3758f092742a.jpg`
-global.logo = image
+global.logo = fs.readFileSync('./src/logo3.jpg')
 global.logoowner = fs.readFileSync('./src/owner.jpg')
 global.wait = '```[ ! ] wait...```'
 global.rpg = '[ ! ] Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT'
