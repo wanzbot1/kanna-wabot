@@ -1,0 +1,53 @@
+{
+  "_args": [
+    [
+      "amdefine@0.0.2",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "amdefine@0.0.2",
+  "_id": "amdefine@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-6Ff93Y+fNXBteep0l2kmDuyKr2Q=",
+  "_location": "/amdefine",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "amdefine@0.0.2",
+    "name": "amdefine",
+    "escapedName": "amdefine",
+    "rawSpec": "0.0.2",
+    "saveSpec": null,
+    "fetchSpec": "0.0.2"
+  },
+  "_requiredBy": [
+    "/warn"
+  ],
+  "_resolved": "https://registry.npmjs.org/amdefine/-/amdefine-0.0.2.tgz",
+  "_spec": "0.0.2",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "James Burke",
+    "email": "jrburke@gmail.com",
+    "url": "http://github.com/jrburke"
+  },
+  "description": "Provide AMD's define() API for declaring modules in the AMD format",
+  "engines": {
+    "node": ">=0.4.2"
+  },
+  "homepage": "http://github.com/jrburke/amdefine.js",
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/jrburke/amdefine/blob/master/LICENSE"
+    },
+    {
+      "type": "MIT",
+      "url": "https://github.com/jrburke/amdefine/blob/master/LICENSE"
+    }
+  ],
+  "main": "./amdefine.js",
+  "name": "amdefine",
+  "version": "0.0.2"
+}
